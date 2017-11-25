@@ -18,13 +18,7 @@ public class GetMinStackTest {
 
     @Test
     public void test() {
-        getMinStack.push(3);
-        getMinStack.push(5);
-        getMinStack.push(0);
-        getMinStack.push(9);
-        getMinStack.push(7);
-        getMinStack.push(6);
-        getMinStack.push(8);
+        getMinStack.push(1);
         System.out.println(getMinStack.getMin());
     }
 }
